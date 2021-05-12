@@ -380,6 +380,7 @@ body .pinned-social-links {
     width: 8%;
     z-index: 1000;
     left: 92%;
+    height: -webkit-fill-available;
 }
 
 body .pinned-social-links .pinned-back {
