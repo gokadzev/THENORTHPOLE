@@ -67,6 +67,7 @@ header .navbar-nav {
 
 header .nav-link {
     color: rgb(162,156,156)!important;
+    transition: 0.6s;
 }
 
 header .nav-link:hover {
