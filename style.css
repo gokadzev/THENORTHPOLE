@@ -354,6 +354,7 @@ main .categories .hover:hover,.categories .hover2:hover,.categories .hover3:hove
 }
 
 main .categories .image {
+    width: 100%;
     max-width: 450px;
     overflow: hidden;
 }
