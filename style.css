@@ -7,6 +7,10 @@ body {
     font-family: 'Karla', sans-serif;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 a:hover {
     color: #A29C9C;
 }
