@@ -167,6 +167,26 @@ footer p {
         display: grid;
         justify-content: center;
     }
+
+    header .navbar .dropdown-menu{
+        display: block;
+        max-width: 60px;
+        min-width: 0px!important;
+        padding: 0;
+        animation: none;
+    }
+
+    header .navbar .dropdown-menu .dropdown-item{
+        padding: .3rem 0rem;
+    }
+
+    header .navbar-nav {
+        animation-name: rotateMenu;
+        transform-origin: top center;
+        transition-timing-function:ease-in-out;
+        animation-fill-mode: forwards;
+        animation-duration: 1s;
+    }
 }
 
 @media only screen and (min-width: 991px) {
@@ -178,6 +198,7 @@ header .navbar-collapse {
 header .separator {
     display: block;
 }
+
 
 
 }
